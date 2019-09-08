@@ -1,0 +1,11 @@
+__pycache__
+env/
+.vscode
+uploads/
+
+*.json
+*.pyc
+
+
+# dependencies
+/node_modules
