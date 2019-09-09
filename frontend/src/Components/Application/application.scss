@@ -1,0 +1,45 @@
+
+
+.application {
+    .row { 
+        display: flex; 
+        flex-wrap: wrap;
+    }
+    
+    .search {
+        width: 40rem;
+        margin: 4rem auto 0;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border-color: transparent;
+    }
+    &__text{
+        margin: 1rem auto;
+        font-size: 1.5rem;
+        color: #085394;
+        text-decoration: none;        
+    }
+    .col-lg-4
+    {
+        margin: 0 auto;
+    }
+
+    &Card {
+        width: 20rem;
+        &.card{
+            overflow: hidden;
+            margin-top: 1rem;
+            border: 0.2rem solid #085394;
+            text-align: center;
+            padding: 0.5rem;
+            border-radius: 2rem;
+        }
+        &_img--top
+        {
+            width: 100%;
+            height: 20rem;
+            border-radius: 2rem;
+        }
+    }
+}
+

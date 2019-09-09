@@ -83,7 +83,7 @@ Returns:
   },
   ...
 ]
-```
+``` 
 
 ### Get One Application `GET /api/apps/<id>`
 Example: `GET /api/apps/google-chrome`
